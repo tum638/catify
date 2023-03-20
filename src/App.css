@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--charcoal)
+}
+
+:root {
+
+   --primary : navy;
+  --secondary : rgb(203, 185, 78);
+  --bright-sec: gold;
+    --charcoal: #36454f;
+    --pad-lr: 10rem;
+}
+.yellow {
+  color: var(--secondary);
+}
+.blue {
+  color: var(--primary);
+}
+.centered {
+  text-align: center;
+}
+.header {
+  font-size: 5em;
+}
+.rounded {
+  border-radius: 1rem;
+
+}
+ 
+.bluetest{
+ background-color: blue;
+
+}
+.green {
+  background-color:green;
+}
+
+.purple {
+  background-color: purple;
+}
+.card {
+  position: relative;
+  width: 40em;
+  height: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.card-header {
+  height: 40%;
+  
+}
+.image {
+  height: 30em;
+  width: 40em;
+  position: absolute;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+}
+.card-body {
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  height: 30%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.dark-background {
+  background-color: black;
+
+  opacity: 0.8
+  
+}
+.white-text {
+  color: white;
+}
+.card-footer {
+  display: flex;
+  height: 2em;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.navy {
+  background-color: navy;
+}
+.button {
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 8em;
+  height: 3em;
+  color: white;
+  /* margin: auto; */
+  
+}
+.button:hover {
+  background-color: var(--charcoal);
+}
+.fill-width {
+  width: 100%;
+}
+
+
+
+
+
